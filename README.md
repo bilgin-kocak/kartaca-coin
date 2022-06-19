@@ -35,13 +35,13 @@ Test result are shown below.
 
 ![image](https://user-images.githubusercontent.com/30844607/174490127-a9cb7ee6-d265-43e6-974a-7238a66deeb9.png)
 
-Start the ganache localhost EVM backend.
+Start the ganache localhost EVM backend. Do not close this terminal.
 
 ```shell
 npm run start-ganache
 ```
 
-Now we can deploy the smart contract to ganache.
+Now we can deploy the smart contract to ganache. Open a new terminal and run the following.
 
 ```shell
 npm run deploy
@@ -54,6 +54,6 @@ cd frontend
 npm start
 ```
 
-You can transfer the KTC to other ganache accounts. You can change wallet address and recevier address. You can determine the sender KTC amounts.
+You can transfer the KTC to other ganache accounts. You can change wallet address and recevier address. You can determine the sender KTC amounts. You can play with the app. Also you can see the new created blocks in ganache terminal.
 
 ![image](https://user-images.githubusercontent.com/30844607/174490358-f64d56ff-26d6-4c70-b9e9-26f9b879a21a.png)

@@ -7,7 +7,7 @@
     "test": "npx hardhat test",
     "compile": "npx hardhat compile",
     "deploy": "npx hardhat run scripts/deploy.js --network localhost",
-    "start-ganache": "ganache-cli --mnemonic \"history health sick current drastic fatal horse medal venture spatial hold gate\"",
+    "start-ganache": "ganache --mnemonic \"history health sick current drastic fatal horse medal venture spatial hold gate\"",
     "ganache-test": "npx hardhat --network localhost test"
   },
   "keywords": [],
