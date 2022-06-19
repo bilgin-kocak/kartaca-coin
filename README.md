@@ -9,6 +9,7 @@ Try running some of the following tasks:
 To install run the following commands.
 
 ```shell
+npm install -g ganache
 npm install
 cd frontend
 npm install
